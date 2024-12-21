@@ -16,6 +16,7 @@
     margin: 10px;
     width: 280px;
     transition: transform 0.3s ease-in-out;
+    text-align: center;
   }
   
   .card:hover {
@@ -47,7 +48,8 @@
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: 20px;  
+    margin-top: 20px; 
+
 }
   
   .card button:hover {

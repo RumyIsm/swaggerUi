@@ -16,6 +16,7 @@
     margin: 10px;
     width: 280px;
     transition: transform 0.3s ease-in-out;
+    text-align: center;
   }
   
   .card:hover {

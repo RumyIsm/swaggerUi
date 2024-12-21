@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { AuthorsService } from '../services/authors.service';
-import './styles/Authors.css'; 
+import "../styles/Authors.css";
 
 const Authors: React.FC = () => {
   const [authors, setAuthors] = useState<any[]>([]);

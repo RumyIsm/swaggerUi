@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import {ActivitiesService} from '../services/activities.service';
-import './styles/Activities.css'; 
+import '../styles/Activities.css'; 
 
 const Activities: React.FC = () => {
   const [activities, setActivities] = useState<any[]>([]);
